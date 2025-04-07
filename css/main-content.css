@@ -1,0 +1,30 @@
+/* Main Content */
+#main-content {
+    padding: 40px 20px;
+  }
+  
+  .main-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  /* Intro Text Section */
+  #intro-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  #intro-text .subtitle {
+    font-size: 1.1rem;
+    max-width: 40rem;
+    margin: 0 auto 2rem auto;
+    color: #aaaaaa;
+    transition: color 0.5s ease;
+  }
+  
+  body.light-mode #intro-text .subtitle {
+    color: #555555;
+  }

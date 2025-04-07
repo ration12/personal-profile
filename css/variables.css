@@ -1,0 +1,12 @@
+:root {
+    --light-bg: #e0e0e0;
+    --dark-bg: #0d0d0d;
+    --light-text: #000000; /* black text */
+    --dark-text: #ffffff; /* white text */
+    --accent-color: #00b4d8;
+    --font-body: 'Inter', sans-serif;
+    --max-width: 900px;
+  
+    --card-bg-light: #f0f0f0;
+    --card-bg-dark: #1a1a1a;
+  }
