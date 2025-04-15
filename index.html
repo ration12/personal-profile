@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishwas Karki - Portfolio</title>
+  <!-- Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" 
+    rel="stylesheet"
+  >
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="dark-mode">
+  <!-- Intro Section (Hero) with Countdown and Slider -->
+  <section id="intro">
+    <div class="countdown-container">
+      <div class="perspective-text">PERSPECTIVE</div>
+      <div class="countdown">
+        <div class="time-block">
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-container">
+      <!-- Start slider at 100 (dark) -->
+      <input type="range" min="0" max="100" value="100" class="slider">
+      <div class="slider-thumb"></div>
+    </div>
+  </section>
+
+  <!-- Main Content Section (scroll down to see) -->
+  <section id="main-content">
+    <div class="main-container">
+      <!-- Introduction -->
+      <section id="intro-text">
+        <h1>Hey, I’m Vishwas — I build cloud-first backend systems and full-stack applications.</h1>
+        <p class="subtitle">
+          Strong believer in clean code, resilient microservices, and cloud-native simplicity.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>REST APIs</span>
+          <span>Python</span>
+          <span>CI/CD</span>
+          <span>Docker</span>
+          <span>Java-Script</span>
+          <span>TDD</span>
+          <span>AWS</span>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Cloud ETL Pipelines at Scale</h3>
+            <p>Serverless ETL design using AWS Glue + PySpark for millions of records.</p>
+          </div>
+          <div class="project-card">
+            <h3>Microservices Modernization</h3>
+            <p>Building scalable microservices with Spring Boot, along with robust full-stack capabilities (Angular, HTML5, CSS3, JavaScript) to create dynamic, responsive web applications.</p>
+          </div>
+          <div class="project-card">
+            <h3>Frontend Localization Revamp</h3>
+            <p>Angular-based UX for multilingual rollout (research in progress).</p>
+          </div>
+          <div class="project-card">
+            <h3>Cloud-Native & Serverless</h3>
+            <p>Building and deploying cloud-first applications using AWS services like Lambda, ECS, DynamoDB, and Glue.</p>
+          </div>
+          <div class="project-card">
+            <h3>Microservices & Full-Stack</h3>
+            <p>Expertise in designing scalable microservices with Spring Boot, along with robust full-stack capabilities (Angular, HTML5, CSS3, JavaScript) to create dynamic, responsive web applications.</p>
+          </div>
+          <div class="project-card">
+            <h3>CI/CD & DevOps</h3>
+            <p>Worked in CI/CD pipelines using tools like Jenkins, GitHub Actions, and Bamboo. Experienced in containerization (Docker, Kubernetes) for efficient and consistent deployments.</p>
+          </div>
+          <div class="project-card">
+            <h3>Production Support & Troubleshooting:</h3>
+            <p>Extensive experience in production support, leveraging tools like Honeycomb and Splunk to monitor systems, diagnose issues, and resolve critical production problems efficiently.</p>
+          </div>
+          <div class="project-card">
+            <h3>Modern Practices</h3>
+            <p>Agile methodologies, TDD, and scalable architectures</p>
+          </div>
+          <div class="project-card">
+            <h3>Industry-Standard Tools</h3>
+            <p>Proficient in using Git for version control, Maven for build automation, and monitoring/logging tools to maintain high-performance, secure applications.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer / Contact Section -->
+      <footer id="contact">
+        <h2>Let’s build something scalable.</h2>
+        <div class="contact-info">
+          <a href="https://www.linkedin.com/in/yourLinkedInUsername" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:your.email@example.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* Base Body */
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    line-height: 1.5;
+  }
+  
+  body.light-mode {
+    color: var(--light-text);
+  }
+  
+  body.dark-mode {
+    color: var(--dark-text);
+  }
